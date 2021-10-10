@@ -11,39 +11,39 @@ class Mahasiswa
 pilih = 0
 dataSiswa = []
 
-def menu()
+def menu():
     os.system('sls')
-    print("Menu Aplikasi Data Siswa")
-    print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
-		print("1. Input Data Siswa")
-		print("2. Tampilkan Data Siswa")
-		print("3. Update Data Siswa")
-		print("4. Hapus Data Siswa")
-		print("5. Author")
-		print("6. Keluar Aplikasi")
-		pilih = int (input(" Masukkan pilihan anda : "))
-		if pilih == 1 :
-					pilih1()
-					menu()
-		elif pilih == 2
-					tampil()
-					input(" kembali menu utama")
-					menu()
-		elif pili == 3
-					index update=-1
-					tampil()
-					id_edit = int(input("Input Nim yang akan di update "))
-					for a range (0, len(dataSiswa)):
-							if id_edit == dataSiswa [a].nim:
-										index_update = a
-										break
-				 if(index_update > -1):
-				 			print("INPUT DATA YANG DI UPDATE ")
-							siswa = Mahasiswa()
-							siswa.nim = (int(input("masukkan nim : ")))
-							siswa.nama = (inpuT("masukkan nama siswa : "))
-							dataSiswa [index update] = siswa
-							print ("berhasil update data siswa")
+    print("Menu Aplikasi Data Siswa");
+    print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ")
+    print("1. Input Data Siswa")
+    print("2. Tampilkan Data Siswa")
+    print("3. Update Data Siswa")
+    print("4. Hapus Data Siswa")
+    print("5. Author")
+    print("6. Keluar Aplikasi")
+    pilih = int (input(" Masukkan pilihan anda : "))
+    if pilih == 1 :
+	pilih1()
+	menu()
+    elif pilih == 2
+	tampil()
+	input(" kembali menu utama")
+	menu()
+    elif pili == 3
+	index update=-1
+	tampil()
+	id_edit = int(input("Input Nim yang akan di update "))
+	for a range (0, len(dataSiswa)):
+		if id_edit == dataSiswa [a].nim:
+			index_update = a
+			break
+		if(index_update > -1):
+			print("INPUT DATA YANG DI UPDATE ")
+			siswa = Mahasiswa()
+			siswa.nim = (int(input("masukkan nim : ")))
+			siswa.nama = (inpuT("masukkan nama siswa : "))
+			dataSiswa [index update] = siswa
+			print ("berhasil update data siswa")
 				else : print("nim tidak ditemukan")
 				input(" kembali menu utama")
 				menu()
