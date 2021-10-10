@@ -11,10 +11,10 @@ class Mahasiswa
 pilih = 0
 dataSiswa = []
 
-def menu()
+def menu():
     os.system('sls')
-    print("Menu Aplikasi Data Siswa")
-    print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ')
+    print("Menu Aplikasi Data Siswa");
+    print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ")
 		print("1. Input Data Siswa")
 		print("2. Tampilkan Data Siswa")
 		print("3. Update Data Siswa")
